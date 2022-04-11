@@ -1,0 +1,9 @@
+.user-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.user-list__link {
+    color: $links;
+    text-decoration: none;
+}

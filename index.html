@@ -1,15 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 
-<body>
-  <h1>Hello World</h1>
+<body class="page__body">
+  <header class="main-header">
+    <div class="main-header__wrapper">
+      <nav class="main-header__navigation">
+        <ul class="main-header__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link logo" href="#">kiselkaTravel</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link logo-description" href="#">Exclusive travel experience.</a>
+          </li>
+        </ul>
+        <ul class="main-header__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__link" href="#">Destinations</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__link" href="#">About Us</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__link" href="#">Support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__section top">
+      <h1 class="top__title">Go on an Adventure.</h1>
+      <p class="top__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus faucibus
+        malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+      <a class="top__link" href="#">Explore destinations</a>
+    </section>
+    <section class="main__form form">
+      <h2 class="form__title">Check your booking information</h2>
+      <label class="form__label">
+        <input class="form__input" type="text" placeholder="Booking Number">
+      </label>
+      <a class="form__link" href="#">Check now</a>
+    </section>
+    <section class="main__about about">
+      <h2 class="about__title">About Us</h2>
+      <ul class="about__list">
+        <li class="about__item">
+          <h2 class="about__item-title">High class travel agency</h2>
+          <p class="about-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus
+            faucibus malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+        </li>
+        <li class="about__item">
+          <h2 class="about__item-title">High class travel agency</h2>
+          <p class="about-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus
+            faucibus malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+        </li>
+        <li class="about__item">
+          <h2 class="about__item-title">High class travel agency</h2>
+          <p class="about-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus
+            faucibus malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+      </ul>
+    </section>
+    <section class="main__destination destination">
+      <h2 class="destination__title">Destinations</h2>
+      <ul class="destination__list">
+        <li class="destination__item">
+          <a href="" class="destination__link">
+            <img class="destination__image" src="images/bahamas.jpg" width="684px" height="520px">
+          </a>
+          <div class="destination__wrapper-card">
+            <h3 class="destination__title-card">Bahamas</h3>
+            <p class="destination__text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et
+              tellus faucibus malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus faucibus malesuada enim. Lorem arcu et
+              morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+            <a href="#" class="destination__link-more">Learn More</a>
+            <a href="#" class="destination__link-book">Book Now</a>
+          </div>
+        </li>
+        <li class="destination__item">
+          <div class="destination__wrapper-card">
+            <h3 class="destination__title-card">Bahamas</h3>
+            <p class="destination__text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam et
+              tellus faucibus malesuada enim. Lorem arcu et morbi fusce ultrices libero, nibh. Urna ut a et. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Vitae quam et tellus faucibus malesuada enim. Lorem arcu et
+              morbi fusce ultrices libero, nibh. Urna ut a et.</p>
+            <a href="#" class="destination__link-more">Learn More</a>
+            <a href="#" class="destination__link-book">Book Now</a>
+          </div>
+          <a href="" class="destination__link">
+            <img class="destination__image" src="images/polynesia.jpg" width="684px" height="520px">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <section class="footer__section footer">
+      <h2 class="visually-hidden">Логотип компании.</h2>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link logo" href="#">kiselkaTravel</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link logo-description" href="#">Exclusive travel experience.</a>
+        </li>
+      </ul>
+    </section>
+  </footer>
 
 </body>
 
