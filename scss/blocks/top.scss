@@ -1,5 +1,9 @@
 .top {
     background-color: $top;
+    padding-bottom: 153px;
+    background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top__title {
@@ -10,5 +14,34 @@
     text-align: left;
     width: 350px;
     color: #ffffff;
+}
 
+.top__text {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    max-width: 558px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+.top__link {
+    display: block;
+    width: 213px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: $links;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 50px;
+}
+
+@media (max-width: 400px) {
+    .top__title {
+        font-size: 40px;
+    }
 }

@@ -1,9 +1,14 @@
 .user-list {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 40px;
 }
 
 .user-list__link {
     color: $links;
     text-decoration: none;
+    color: #ffffff;
 }
